@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Data files (large)
+*.npy
+*.bin
+data/raw/
+data/processed/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+
+# Environment
+.env
+.env.local
+
+# Outputs (optional - you might want to include these)
+# outputs/
+
+# Test
+.pytest_cache/
+coverage/

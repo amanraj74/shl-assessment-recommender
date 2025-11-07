@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHL Assessment Recommendation Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">🎯</div>
+                    <div class="logo-text">
+                        <h1>SHL Assessment Recommender</h1>
+                        <p>Intelligent Assessment Discovery Platform</p>
+                    </div>
+                </div>
+                <div class="header-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="assessmentCount">54</span>
+                        <span class="stat-label">Assessments</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Accuracy</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Query Input Section -->
+            <section class="query-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-search"></i> Find Perfect Assessments</h2>
+                    <p>Describe your hiring needs in detail</p>
+                </div>
+
+                <div class="input-container">
+                    <div class="textarea-wrapper">
+                        <textarea 
+                            id="queryInput" 
+                            class="query-textarea"
+                            placeholder="Example: 'I need a senior Java developer with 5+ years experience who can lead a team and has strong communication skills. Looking for assessments focused on technical skills, leadership, and problem-solving that can be completed in 40 minutes.'"
+                            rows="5"
+                        ></textarea>
+                        <div class="char-count">
+                            <span id="charCount">0</span>/500
+                        </div>
+                    </div>
+                </div>
+
+                <div class="controls-section">
+                    <div class="control-group">
+                        <label for="topK">
+                            <i class="fas fa-list-ol"></i>
+                            Number of Recommendations
+                        </label>
+                        <select id="topK" class="select-input">
+                            <option value="5">5 Results (Focused)</option>
+                            <option value="7">7 Results (Balanced)</option>
+                            <option value="10" selected>10 Results (Comprehensive)</option>
+                        </select>
+                    </div>
+
+                    <button id="recommendBtn" class="btn-recommend" onclick="getRecommendations()">
+                        <i class="fas fa-magic"></i>
+                        Get Recommendations
+                    </button>
+                </div>
+            </section>
+
+            <!-- Loading State -->
+            <div id="loading" class="loading-section" style="display: none;">
+                <div class="loading-container">
+                    <div class="spinner"></div>
+                    <h3>Analyzing Your Query</h3>
+                    <p>Using AI to find the perfect assessments...</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <section id="results" class="results-section"></section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p><i class="fas fa-heart"></i> Built for SHL AI Research Internship</p>
+                <p>Assessment Recommendation Engine v2.0 | Powered by Advanced AI</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

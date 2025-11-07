@@ -1,0 +1,17 @@
+{
+    "k=3": {
+        "mean_recall@3": 0.2667,
+        "mean_map@3": 0.2544,
+        "total_queries": 10
+    },
+    "k=5": {
+        "mean_recall@5": 0.3444,
+        "mean_map@5": 0.3192,
+        "total_queries": 10
+    },
+    "k=10": {
+        "mean_recall@10": 0.4933,
+        "mean_map@10": 0.4003,
+        "total_queries": 10
+    }
+}
