@@ -1,17 +1,17 @@
 {
     "k=3": {
-        "mean_recall@3": 0.2667,
-        "mean_map@3": 0.2544,
+        "mean_recall@3": 0.4066666666666666,
+        "mean_map@3": 0.4066666666666666,
         "total_queries": 10
     },
     "k=5": {
-        "mean_recall@5": 0.3444,
-        "mean_map@5": 0.3192,
+        "mean_recall@5": 0.601111111111111,
+        "mean_map@5": 0.5691111111111111,
         "total_queries": 10
     },
     "k=10": {
-        "mean_recall@10": 0.4933,
-        "mean_map@10": 0.4003,
+        "mean_recall@10": 0.9,
+        "mean_map@10": 0.8731746031746033,
         "total_queries": 10
     }
 }

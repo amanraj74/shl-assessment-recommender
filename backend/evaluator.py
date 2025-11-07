@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
-from recommender import AssessmentRecommender
+from recommender import ProfessionalAssessmentRecommender
 from typing import List
 
 class RecommendationEvaluator:
-    def __init__(self, train_file: str, recommender: AssessmentRecommender):
+    def __init__(self, train_file: str, recommender: ProfessionalAssessmentRecommender):
         """Initialize evaluator with training data"""
         self.train_df = pd.read_excel(train_file, sheet_name='Train-Set')
         self.recommender = recommender
@@ -76,7 +76,7 @@ class RecommendationEvaluator:
         }
 
 if __name__ == "__main__":
-    recommender = AssessmentRecommender()
+    recommender = ProfessionalAssessmentRecommender()
     evaluator = RecommendationEvaluator('../data/Gen_AI-Dataset.xlsx', recommender)
     
     print("\n" + "="*70)

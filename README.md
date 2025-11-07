@@ -95,7 +95,7 @@ The **SHL Assessment Recommendation Engine** is a state-of-the-art AI system des
                            │
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
-│               AssessmentRecommender Engine                  │
+│               ProfessionalAssessmentRecommender Engine                  │
 │  ┌─────────────────────────────────────────────────────┐   │
 │  │  1. Query Processing & Skill Extraction             │   │
 │  │     • NER for skills  • Query enhancement           │   │
