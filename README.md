@@ -557,7 +557,7 @@ Deploy serverless using AWS SAM or Serverless Framework for cost-effective scali
 
 ## 📖 Technical Report
 
-For comprehensive technical details, see [**TECHNICAL_REPORT.pdf**](docs/Technical_Report.pdf) (2 pages):
+For comprehensive technical details, see [**TECHNICAL_REPORT.pdf**](docs/technical_report.pdf) (2 pages):
 
 - Problem statement and objectives
 - Solution architecture and design decisions
@@ -631,7 +631,7 @@ furnished to do so, subject to the following conditions:
 ### Having Issues?
 
 1. Check the [Issues](https://github.com/amanraj74/shl-assessment-recommender/issues) page
-2. Review the [Technical Report](docs/Technical_Report.pdf)
+2. Review the [Technical Report](docs/technical_report.pdf)
 3. Open a new issue with:
    - Clear description of the problem
    - Steps to reproduce
