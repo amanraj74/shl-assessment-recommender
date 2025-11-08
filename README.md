@@ -608,8 +608,8 @@ furnished to do so, subject to the following conditions:
 **Aman Jaiswal**
 
 [![GitHub](https://img.shields.io/badge/GitHub-@amanraj74-181717?style=for-the-badge&logo=github)](https://github.com/amanraj74)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amanraj74)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aman-jaiswal-05b962212/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aerraj50@gmail.com)
 
 *Built for SHL AI Research Internship Assessment | November 2025*
 
